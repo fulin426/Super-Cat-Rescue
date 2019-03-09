@@ -1,0 +1,169 @@
+body {
+  background-color: #dcedef;
+  margin: 0;
+  padding: 0;
+}
+/* Navigation */
+nav {
+  background-color: #fff;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+  font-family: 'Nunito';
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation {
+  height: 54px;
+  width: 100%;
+}
+
+.links-container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.nav-links {
+  display: inline-block;
+  list-style-type: none;
+  height: 32px;
+  font-size: 20px;
+  font-weight: 500;
+  float: right;
+  padding: 0px 32px;
+  margin-top: 10px;
+  line-height: 32px;
+}
+
+/* Logo Styles  */
+.logo-container {
+  position: absolute;
+  top: -36px;
+}
+.cat-logo {
+  width: 120px;
+  height: 120px;
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #14454b;
+}
+
+.logo-super-text-wrap {
+  position: absolute;
+  top: 42px;
+  left: -8px;
+  z-index: 1;
+}
+
+.logo-rescue-text-wrap {
+  position: absolute;
+  top: 78px;
+  left: 92px;
+  z-index: 1;
+}
+
+.logo-text {
+ font-family: 'Oleo Script', cursive;
+ font-size: 45px;
+ color: #fff;
+ letter-spacing: 1.6px;
+ transform: rotate(-2deg);
+ text-shadow: 2px 3px 0 #14454b;
+ margin-bottom: 0px;
+}
+
+/* Landing Page */
+.container {
+  position: relative;
+}
+
+.landing-page {
+  padding: 32px;
+  display: inline-block;
+  margin-top: 14%;
+  margin-bottom: 6rem;
+}
+
+.landing-text {
+  max-width: 560px;
+  text-align: center;
+  display: inline-block;
+}
+
+.header-text {
+  font-size: 60px;
+  font-family: 'Questrial';
+  font-weight: lighter;
+  letter-spacing: 2.61px;
+}
+
+.mission-description {
+  letter-spacing: 1px;
+  font-size: 24px;
+  font-family: 'Nunito';
+  margin-bottom: 6rem;
+  letter-spacing: 2.61px;
+}
+
+.learn-more {
+  text-decoration: underline;
+}
+
+.available-btn {
+  width: 480px;
+  height: 60px;
+  font-family: 'Questrial';
+  font-size: 24px;
+  border-radius: 30px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.17);
+  background-color: #3a7a82;
+  cursor: pointer;
+}
+
+.available-btn:hover {
+  background-color: #2e6168;
+}
+
+/* Card styles */
+.picture-card {
+  max-width: 430px;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fbfcfc;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.main-cat {
+  max-width: 400px;
+  height: 290px;
+  margin-bottom: 20px;
+}
+
+.card-header {
+  margin-bottom: 18px;
+  margin-top: 0;
+}
+
+.card-text {
+  letter-spacing: 3.3px;
+  font-family: 'Nunito';
+  font-size: 23px;
+  line-height: 0;
+}
+
+.card-text-p {
+  margin-bottom: 8px;
+}
+
+.card-text-bottom {
+  margin-bottom: 20px;
+}
